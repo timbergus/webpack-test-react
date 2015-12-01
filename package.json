@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha 'tests/index.js'",
-    "dev": "webpack-dev-server --content-base web/ --progress --color --inline --hot"
+    "dev": "webpack-dev-server --content-base web/ --progress --color --inline --hot",
+    "prod": "mocha 'tests/index.js' && webpack"
   },
   "keywords": [
     "webpack"

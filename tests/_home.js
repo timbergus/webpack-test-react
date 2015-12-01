@@ -1,7 +1,9 @@
 import { expect } from 'chai';
-import Home from '../app/home.jsx';
+
 import React from 'react';
 import TestUtils from 'react-addons-test-utils';
+
+import Home from '../app/home.jsx';
 
 var home = new Home();
 
